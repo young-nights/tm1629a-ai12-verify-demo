@@ -29,5 +29,3 @@ aliases：验证AI12触摸芯片的功能，同时验证PCB布线与布局的可
 ![数码管接线](./images/Demo_Images6.png)
 
 
-## <font size=2>4.TM1629A代码设计思路</font>
-
