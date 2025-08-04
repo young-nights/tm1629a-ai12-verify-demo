@@ -9,11 +9,14 @@ aliases：验证AI12触摸芯片的功能，同时验证PCB布线与布局的可
 ## <font size=2>1.功能板PCB布局设计说明</font>
 
 <font size=2>为快速验证Demo,节省焊接成本，本次Demo板使用自制的STM32F103RET6最小单片机系统板，在功能板上绘制AI12和TM1629A的外围电路。</font>
+
 ![功能板](./images/Demo_Images8.png)
 
 ## <font size=2>2.触摸芯片PCB布局说明</font>
 <font size=2>触摸按键形式：弹簧触摸按键</font>
+
 ![触摸弹簧](./images/Demo_Images7.png)
+
 <font size=2>
 **敷铜**：本次的功能板使用双面板，上下均需要大规模敷铜，特别需要注意的是，触摸弹簧主体外围禁止敷铜，以外径为边界，禁止敷铜区域需间隔2.5mm以上。以TOP层作为弹簧安装面，TOP层需要设置禁止敷铜区域，底层不需要设置。
 
