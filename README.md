@@ -2,6 +2,8 @@
 
 ```bash
 create_at：2025/08/04
+hardware:STM32F103RET6
+platform:RT-Thread
 aliases：验证AI12触摸芯片的功能，同时验证PCB布线与布局的可行性。
          验证TM1629A数码管驱动芯片的功能，本次只验证对共阳数码管的驱动函数的功能。
 ```
